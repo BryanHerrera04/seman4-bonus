@@ -1,7 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.bonus">
    <application
         android:label="bonus"
+=======
+    package="com.example.calculadoraimc">
+   <application
+        android:label="calculadoraimc"
+>>>>>>> Calculadora IMC
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

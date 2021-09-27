@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 
 void main() {
@@ -108,6 +109,25 @@ class _MyHomePageState extends State<MyHomePage> {
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
+=======
+import 'package:calculadoraimc/pages/home_page.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(CaculadoraIMC());
+}
+
+class CaculadoraIMC extends StatelessWidget {
+  const CaculadoraIMC({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Calculadora IMC',
+      theme: ThemeData.dark(),
+      home: HomePage(),
+>>>>>>> Calculadora IMC
     );
   }
 }

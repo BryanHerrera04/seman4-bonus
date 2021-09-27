@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # bonus
+=======
+# calculadoraimc
+>>>>>>> Calculadora IMC
 
 A new Flutter project.
 
